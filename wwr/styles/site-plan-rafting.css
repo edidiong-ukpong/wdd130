@@ -8,7 +8,7 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #f72585;
   --secondary-color: #7209b7;
-  --accent1-color: #>3a0ca3;
+  --accent1-color: #3a0ca3;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -82,10 +82,10 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: var(--f72585);
+  background-color: var(--primary-color);
 }
 .secondary {
-  background-color: var(7209b7);
+  background-color: var(--secondary-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
