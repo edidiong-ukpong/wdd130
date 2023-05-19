@@ -31,11 +31,12 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #396E94;
 }
 img {
   display: block;
@@ -50,7 +51,7 @@ h2 {
   text-align: center;
 }
 hr {
-  height: 3px;
+  height: 725px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
@@ -59,6 +60,7 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  background-color: #7209b7;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -112,6 +114,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  background-color: #f72585;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -119,6 +122,7 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  background-color: floralwhite;
 }
 .sitemap {
   display: grid;
@@ -162,4 +166,13 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.icon{
+  width: 80px;
+}
+footer p a:hover{
+  text-decoration: underline;
+}
+footer p {
+  font-size: 1.2em;
 }
