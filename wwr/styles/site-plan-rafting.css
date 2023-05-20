@@ -32,7 +32,7 @@ Fonts are separated by a & */
 
 body {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
@@ -42,6 +42,7 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+  border: 4px steelblue;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
