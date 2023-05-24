@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto:wght@300&display=swap');
 
 body{
-  font-family:Darumadrop ;
+  font-family:"Darumadrop One",Helvetica;
   padding:0 auto;
   font-size: 22px;
-  margin: 0;
+  margin:0 auto;
+  max-width: 1600px;
 }
 h1,h2{
-  font-family: roboto, Helvetica,
-
+  font-family: Roboto, Helvetica,sans-serif,
 }
 .home-tittle,
 .msg h2 {
@@ -43,8 +43,11 @@ main section img{
   background-color: #396E94;
   text-decoration: none;
 }
-icon{
+.icon{
   padding-top: 10px;
+.logo,.icon{
+  width: 80px;
+}
 }
 .msg p {
   padding-bottom: 15px;
@@ -55,4 +58,8 @@ footer{
 }
 footer.social img{
    padding-top: 15px
+}
+background{
+  height:725px;
+  background-color:#f72585;
 }
