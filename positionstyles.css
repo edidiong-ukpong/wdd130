@@ -25,6 +25,8 @@
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  justify-content: center;
+  align-content: center;
 } 
 /* Activity 2 styles */ 
 .content2 {
@@ -49,6 +51,8 @@
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  justify-content: center;
+  align-content: center;
 } 
 /* Activity 3 styles */ 
 .content3 {
@@ -72,7 +76,11 @@
 .blue3 {
   width: 100px;
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
 } 
 /* Activity 4 styles */ 
 .content4 {
