@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto:wght@300&display=swap');
 
 body{
-  font-family:"Darumadrop One",Helvetica;
-  padding:0 auto;
+  font-family:"Darumadrop One"Helvetica;
+  padding:0;
   font-size: 22px;
-  margin:0 auto;
+  margin:0;
   max-width: 1600px;
 }
 h1,h2{
-  font-family: Roboto, Helvetica,sans-serif,
+  font-family: Roboto, Helvetica,sans-serif;
 }
-.home-tittle,
+.home-title,
 .msg h2 {
   font-family: roboto,Helvetica;
   font-size: 2em;
@@ -31,7 +31,7 @@ h1,h2{
 }
 .card-img{
   border: 10px solid #396E94;
-  width: 100;
+  width: 100px;
   border: 10px solid #f72585;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #396E94;
@@ -52,9 +52,9 @@ main section img{
 }
 .icon{
   padding-top: 10px;
+}
 .logo,.icon{
   width: 80px;
-}
 }
 .msg p {
   padding-bottom: 15px;
