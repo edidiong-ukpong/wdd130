@@ -21,6 +21,8 @@ h2 {
   font-family: roboto, Helvetica;
   font-size: 2em;
   margin-top: 10px;
+  text-align: center;
+  color: white;
 }
 
 header {
@@ -46,7 +48,7 @@ header {
 
 .card-img {
   border: 10px solid #396E94;
-  width: 100px;
+  width: 100%;
   border: 10px solid #f72585;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #396E94;
