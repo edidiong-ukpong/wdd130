@@ -227,3 +227,7 @@ color:white;
 .moveDown {
   margin-top: 3em;
 }
+.select-me{
+  padding: 10;
+  max-width: auto;
+}
