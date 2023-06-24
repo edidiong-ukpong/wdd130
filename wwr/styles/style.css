@@ -88,7 +88,7 @@ main section img {
 footer {
   padding: 25px 50px;
   margin-top: 200px;
-  background-color: #f72585;
+  background-color: #25f74c38;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -100,7 +100,7 @@ footer.social img {
 
 background {
   height: 725px;
-  background-color: #f72585;
+  background-color: #f79c25;
 }
 
 .card-img:hover {
@@ -213,4 +213,17 @@ color:white;
 .home-grid{
   display:grid;
   grid-template-columns: repeat(10,1fr);
+}
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;      
+}
+.moveDown {
+  margin-top: 3em;
 }
