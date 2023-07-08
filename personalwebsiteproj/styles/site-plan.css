@@ -183,11 +183,11 @@ nav a:hover {
   grid-auto-rows: auto;
   grid: gap 20px;
 }
-.one{
-  grid-column: 1/2;
-  grid-row: 1/3;
-}
 section{
   text-align: left;
   image: auto;
+}
+.footer{
+  border: 1cap solid black;
+  padding: 10px;
 }
