@@ -216,9 +216,57 @@ a:hover {
   border-radius: 50%;
 }
 section{
-  text-align: justify;
+  text-align: left;
 }
 .header-picture{
   float: left;
 
+}
+.holyghost{
+  border-color: #70e84f;
+  background-color: plum;
+  border: #001d3d;
+  text-align: left;
+}
+.meme{
+  border: peru;
+  background-color: honeydew;
+  font-style: oblique;
+  display: grid;
+}
+.gee{
+  image-orientation: flip;
+}
+.ern{
+  background-size: 0cap;
+  background-color: palevioletred;
+}
+.wine{
+  text-align: center;
+  margin-inline-end: 0cap;
+  font-size: medium;
+}
+.ert{
+  display: grid;
+}
+.repentance{
+  background-color: peru;
+  text-align: center;
+}
+.we{
+  text-shadow: #051938;
+  text-align: center;
+}
+#dio{
+  position: absolute;
+  left: 0;
+  animation: move-left 5s linear infinite;
+}
+@keyframes move-left{
+  0%{ 
+  left: 100;
+}
+  100%{
+    left: 0;
+  }
 }
