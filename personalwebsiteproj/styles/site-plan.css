@@ -41,7 +41,6 @@ img {
   display: block;
   margin: 0 auto;
   float: right;
-  padding: left;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -185,7 +184,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-auto-rows: auto;
-  grid: gap;
+  grid: 20px;
 }
 .footer{
   border: 1cap solid black;
@@ -254,19 +253,19 @@ section{
   text-align: center;
 }
 .we{
-  text-shadow: #051938;
+  text-shadow: 1px 1px 3px#075532;
   text-align: center;
 }
-#dio{
-  position: absolute;
-  left: 0;
-  animation: move-left 5s linear infinite;
+img#dio{
+  display: block;
+  margin: 0 auto;
+  float: left;
 }
 @keyframes move-left{
   0%{ 
   left: 100;
 }
   100%{
-    left: 0;
+    left: 100;
   }
 }
