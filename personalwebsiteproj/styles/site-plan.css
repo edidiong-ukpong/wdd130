@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #773a94;
-  --nav-background-color: #70e84D;
+  --nav-background-color: #4d8b87;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #a43312;
 }
@@ -233,9 +233,6 @@ section{
   font-style: oblique;
   display: grid;
 }
-.gee{
-  image-orientation: flip;
-}
 .ern{
   background-size: 0cap;
   background-color: palevioletred;
@@ -244,9 +241,6 @@ section{
   text-align: center;
   margin-inline-end: 0cap;
   font-size: medium;
-}
-.ert{
-  display: grid;
 }
 .repentance{
   background-color: peru;
@@ -263,9 +257,16 @@ img#dio{
 }
 @keyframes move-left{
   0%{ 
-  left: 100;
+  left: 100 px;
 }
   100%{
-    left: 100;
+    left: 100 px;
   }
+}
+.BN{
+ text-shadow: 2px 1px 3px;
+ text-align: center;
+}
+.erp{
+  background-color:honeydew;
 }
